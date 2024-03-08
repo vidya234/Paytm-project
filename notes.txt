@@ -1,0 +1,25 @@
+index.js file main file
+command : npm init
+the download dependancies from npm package manager
+commands:
+npm install zod
+npm install cors
+npm install express
+npm install mongoose
+npm install jsonwebtoken
+
+
+what is cors ?
+Yes, Cross-Origin Resource Sharing (CORS) is a mechanism that allows many resources (e.g., fonts, JavaScript, etc.) on a web page to be requested from another domain outside the domain from which the resource originated¹²³. It's a way to relax the same-origin policy, which is enforced by default by web browsers².
+
+By default, a web page can only make requests to the same domain that it was loaded from. However, with CORS, a server can specify who can access its assets and which HTTP request methods are allowed from which origins¹²³.
+
+Here's a simplified example of how it works:
+
+1. A client makes a cross-origin request from `http://localhost:3000` to `http://localhost:5000/api/data`.
+2. The server at `http://localhost:5000` checks its CORS policy to see if `http://localhost:3000` is allowed.
+3. If `http://localhost:3000` is allowed, the server includes the `Access-Control-Allow-Origin: http://localhost:3000` header in its response.
+4. The browser checks this header and if the origin is allowed, it processes the response. If not, it throws an error¹²³.
+
+Remember, CORS is a security feature and it's important to configure it carefully to avoid exposing sensitive data or functionality to malicious sites¹²³. Let me know if you need help with anything else! 😊
+

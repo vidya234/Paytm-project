@@ -1,0 +1,14 @@
+This is a simpler version of paytm project
+
+Tech stack
+
+backend:
+express -- http server
+mongoose -- ODM to connect to Mongodb
+Zod - input validation
+cors
+jsonwebtokens
+
+frontend:
+React -  front end framework
+Tailwind css - styling frame work
